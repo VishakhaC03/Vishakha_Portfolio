@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  background: url(../assets/back.avif);
+  color: black;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.progress-bar {
+  background-color: #0d6efd;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
